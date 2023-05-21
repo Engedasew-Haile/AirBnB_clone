@@ -32,6 +32,20 @@ class HBNBCommand(cmd.Cmd):
             'City', 'State', 'Place',
             'Review', 'Amenity']
 
+    meth = ['create', 'destroy', 'update', 'show', 'all', 'count']
+
+    def precmd(self, arg):
+        """
+        This parses the console input
+        """
+        if '.' in arg and '(' in arg and ')' in arg:
+            dC = arg.split('.')
+            dM = dC[1].split('(')
+            param = dM[1].split(')')
+            if dC[0] in HBNBCommand.def_class and dM[0] in HBNBCommand.meth:
+                arg = dM[0] + ' ' + dC[0] + ' ' + param[0]
+        return arg
+
     def do_quit(self, arg):
         """Quit command to exit the program"""
         return True
@@ -131,6 +145,19 @@ class HBNBCommand(cmd.Cmd):
                 if name_obj == spl_arg[0]:
                     inst_list += [value.__str__()]
             print(inst_list)
+
+    def do_count(self, class_name):
+        """
+        This retrieves the number of instances
+        of a class
+        """
+        count = 0
+        obj_tot = storage.all()
+        for key, value in obj_tot.items():
+            cl_name = key.split('.')
+            if cl_name[0] == class_name:
+                count = count + 1
+        print(count)
 
     def do_update(self, arg):
         """
