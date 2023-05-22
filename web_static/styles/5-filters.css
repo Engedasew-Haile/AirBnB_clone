@@ -21,6 +21,7 @@
     width: 25%;
     display: inline-block;
     vertical-align: top;
+    margin-left: 20px;
     padding: 10px;
     box-sizing: border-box; /* Added box-sizing property */
   }
