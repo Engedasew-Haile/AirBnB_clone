@@ -1,0 +1,9 @@
+﻿header {
+    background-color: #FFFFFF;
+    background-image: url("../images/HBTN_logo.png");
+    background-position: letf-top;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+}
