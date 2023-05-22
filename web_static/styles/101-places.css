@@ -63,7 +63,7 @@ article {
 }
 
 .max_guest {
-    background-image: url("../images/guests.png");
+    background-image: url("../images/guests.jpg");
     background-position: top;
     background-repeat: no-repeat;
 }
@@ -73,7 +73,7 @@ article {
     }
 
 .number_rooms {
-    background-image: url("../images/bedrooms.png");
+    background-image: url("../images/bedrooms.jpg");
     background-position: top;
     background-repeat: no-repeat;
 }
@@ -83,7 +83,7 @@ article {
     }
 
 .number_bathrooms {
-    background-image: url("../images/bathrooms.png");
+    background-image: url("../images/bathrooms.jpg");
     background-position: top;
     background-repeat: no-repeat;
 }
