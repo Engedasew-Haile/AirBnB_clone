@@ -50,11 +50,12 @@
   align-items: center;
 }
 
+
+
 .max_guest,
 .number_rooms,
 .number_bathrooms,
-.user,
-.description {
+.user {
   width: 100px;
   text-align: center;
 }
