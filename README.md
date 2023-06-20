@@ -109,7 +109,7 @@ This will start the command interpreter with the prompt `(hbnb)`. From here, you
 [BaseModel] (43c18b6d-9816-4f50-9873-1d7501a68f57) {'id': '43c18b6d-9816-4f50-9873-1d7501a68f57', 'created_at': datetime.datetime(2022, 6, 4, 14, 26, 20, 15330), 'updated_at': datetime.datetime(2022, 6, 4, 14, 26, 20, 15394), 'name': 'John Doe'}
 ```
 
-## contributors
+## by Engedasew Haile
 <a href="https://github.com/Engedasew-Haile/AirBnB_clone/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Engedasew-Haile/AirBnB_clone" />
 </a>
