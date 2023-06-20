@@ -1,4 +1,4 @@
-0x00. AirBnB clone - The console
+i0x00. AirBnB clone - The console
 
 Concepts
 For this project, we expect you to look at these concepts:
@@ -91,3 +91,4 @@ We strongly encourage you to work together on test cases, so that you dont miss 
 Repo:
 GitHub repository: 
 AirBnB_clone
+...
