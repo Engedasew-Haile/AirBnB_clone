@@ -110,6 +110,6 @@ This will start the command interpreter with the prompt `(hbnb)`. From here, you
 ```
 
 ## contributors
-<a href="https://github.com/MelakuDemeke/AirBnB_clone/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=MelakuDemeke/AirBnB_clone" />
+<a href="https://github.com/Engedasew-Haile/AirBnB_clone/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Engedasew-Haile/AirBnB_clone" />
 </a>
